@@ -17,7 +17,9 @@ public class Array1 {
 		for(int x: ar2){
 			System.out.println("for~each : "+x);
 		}
-		int [2][3] ar3 = {1,2,3,4,5,6};
+		int[][] ar3 = {
+				{1,2,3},{4,5,6}};
+		
 		for(int i=0 ; i<=1;i++){
 			for(int j=0; j<=2; j++){
 				
