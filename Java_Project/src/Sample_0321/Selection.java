@@ -9,6 +9,7 @@ public class Selection {
 		Scanner input = new Scanner(System.in);
 		int in;
 		in = input.nextInt();
+		input.close();
 		
 		if(in==0){
 			System.out.println("in is 0");
