@@ -44,7 +44,7 @@ public class TextFieldFrame extends JFrame {
 			if(e.getSource() == button || e.getSource() == text) {
 				String name = text.getText();
 				int value = Integer.parseInt(name);
-				result.setText(" " + value *value);
+				result.setText(" " + value * value);
 				text.requestFocus();
 			}
 		}
